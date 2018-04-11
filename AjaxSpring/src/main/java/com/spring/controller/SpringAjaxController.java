@@ -19,7 +19,7 @@ import com.spring.model.User;
 @Controller
 public class SpringAjaxController {
 
-	
+	//LIST OF USERS
 	private List<User> userList = new ArrayList<User>();
 	@RequestMapping(value="/AddUser",method=RequestMethod.GET)  
     public String showform() {  
